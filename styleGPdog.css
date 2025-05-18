@@ -1,0 +1,83 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffe4e1;
+   
+}
+h1 {
+    color: #d2691e;
+}
+p {
+    font-size: 18px;
+}
+
+.dog-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    width: 100%;             /* full width */
+    margin: 20px 0;          /* vertical space only */
+    padding: 0 20px;         /* optional: side padding */
+    box-sizing: border-box;  /* ensures padding stays inside width */
+}
+
+ul {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #fff8dc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;             /* make the list take full available width */
+}
+
+
+.dog-food-list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #fff8dc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dog-food-list li {
+    flex: 0 0 auto;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.dog-food-list img {
+    display: block;
+    margin: 0 auto 5px;
+    border-radius: 5px;
+}
+
+.dog-toys li {
+    flex: 0 0 auto;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.dog-accessories li {
+    flex: 0 0 auto;
+    margin-right: 50px;
+    text-align: center;
+}
+
+
+
